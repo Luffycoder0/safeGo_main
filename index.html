@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeGo - Driver Monitoring System</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Safe<span>Go</span></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How It Works</a></li>
+          <li><a class="main-nav-link" href="#features">Features</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#cta">Login</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero container">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Stay Safe on the Road with Real-Time Driver Monitoring!
+            </h1>
+            <p class="hero-description">
+              SafeGo uses advanced AI to detect drowsiness, fatigue, and
+              distraction, keeping you alert and preventing accidents. Drive
+              smarter, drive safer.
+            </p>
+            <div class="hero-buttons">
+              <a href="#cta" class="btn btn--full margin-right-sm"
+                >Download the App</a
+              >
+              <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            </div>
+          </div>
+
+          <div class="hero-img-box">
+            <img
+              src="./img/freepik.jpeg"
+              class="hero-img"
+              alt="BMW car with gradient light blue and dark blue background"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">Your daily safety in 3 simple steps</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- Step 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Download the SafeGo app</h3>
+            <p class="step-description">
+              Available on both iOS and Android. Install in seconds and start
+              your first drive.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img src="/img/App.jpg" class="step-img" alt="iPhone app screen" />
+          </div>
+
+          <!-- Step 02 -->
+          <div class="step-img-box">
+            <img src="/img/Home.jpg" class="step-img" alt="iPhone app screen" />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Start your drive</h3>
+            <p class="step-description">
+              Our AI begins monitoring your face and eye movements the moment
+              you start driving.
+            </p>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Get real-time alerts</h3>
+            <p class="step-description">
+              Instant notifications when signs of drowsiness or distraction are
+              detected.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="./img/Simulation.jpg"
+              alt="Smartphone showing alert notification"
+              id="step-3-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features" id="features">
+        <div class="container">
+          <span class="subheading">Features</span>
+          <h2 class="heading-secondary">Advanced safety technology</h2>
+        </div>
+
+        <div class="container grid grid--3-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="eye-outline"></ion-icon>
+            <p class="feature-title">Drowsiness Detection</p>
+            <p class="feature-text">
+              Monitors eye closure duration and blink rate to detect fatigue.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="alert-circle-outline"
+            ></ion-icon>
+            <p class="feature-title">Distraction Alerts</p>
+            <p class="feature-text">
+              Identifies when your attention leaves the road for too long.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="stats-chart-outline"
+            ></ion-icon>
+            <p class="feature-title">Drive Analytics</p>
+            <p class="feature-text">
+              Tracks your driving patterns and provides safety insights.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary what-users-say">What our users say</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Customer photo"
+              />
+              <blockquote class="testimonial-text">
+                SafeGo saved me from a potential accident when I didn't realize
+                how tired I was.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Michael R.</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="https://randomuser.me/api/portraits/women/44.jpg"
+                alt="Customer photo"
+              />
+              <blockquote class="testimonial-text">
+                The distraction alerts have made me a much more focused driver.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Sarah L.</p>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first month free!</h2>
+              <p class="cta-text">
+                Download SafeGo today and experience safer driving. No credit
+                card required.
+              </p>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <input id="email" type="email" placeholder="Email" required />
+                </div>
+
+                <div>
+                  <input
+                    id="password"
+                    type="password"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+
+                <button class="btn btn--form">Log In</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Man driving safely"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">SafeGo</a>
+          <p class="copyright">
+            Copyright &copy; 2025 by SafeGo, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p>Zagazig University</p>
+            <p>
+              <a class="footer-link" href="tel:+201022578490">01022578490</a
+              ><br />
+              <a class="footer-link" href="mailto:gogosameh555@gmail.com"
+                >hello@safego.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About SafeGo</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

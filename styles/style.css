@@ -1,0 +1,270 @@
+/* HEADER SECTION */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e2a38;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  font-size: 5rem;
+  color: #3498db;
+  list-style: none;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+span {
+  color: #72c7ff;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #fff;
+}
+
+/* HERO SECTION */
+.section-hero {
+  background-color: #72c7ff;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.hero-text-box {
+  padding: 2.4rem;
+}
+
+.hero-img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 4.8rem;
+}
+
+/* HOW IT WORKS SECTION */
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-img-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-img {
+  width: 40%;
+  border-radius: 15px;
+}
+
+#step-3-img {
+  height: 40%;
+  width: 80%;
+  border-radius: 5%;
+}
+
+/* FEATURES SECTION */
+.section-features {
+  padding: 9.6rem 0;
+  background-color: #f8f9fa;
+}
+
+.feature {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+  padding: 3.2rem;
+  background-color: #fff;
+}
+
+.feature:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.feature-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #3498db;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+  background-color: #e6f2ff;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/* TESTIMONIALS SECTION */
+.what-users-say {
+  color: #3498db;
+}
+
+.section-testimonials {
+  padding: 9.6rem 0;
+  background-color: #1e2a38;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+  color: #fff;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #72c7ff;
+}
+
+/* CTA SECTION */
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #3498db, #1e2a38);
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #000;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(52, 152, 219, 0.35),
+      rgba(30, 42, 56, 0.35)
+    ),
+    url('../img/josh-berquist-_4sWbzH5fp8-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3.2rem;
+}
+
+.cta-form input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn--form {
+  background-color: #1e2a38;
+  color: #fff;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
